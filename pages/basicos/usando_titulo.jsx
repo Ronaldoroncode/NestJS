@@ -6,6 +6,7 @@ export default function usandoTitulo() {
 			<Titulo
 				principal="Página de Cadastro"
 				secundario="Incluir, alterar e excluir cadastro"
+				medio={true}
 			/>									
 			<Titulo
 				principal="Página de Login"
@@ -14,6 +15,7 @@ export default function usandoTitulo() {
 			<Titulo
 				principal="Página de Recuperar Senha"
 				secundario="Informe senha atual"
+				pequeno={true}
 			/>									
 		</div>
 	)
